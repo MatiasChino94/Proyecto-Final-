@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .loGo {
   background-color: #389cca;
   border: solid #d4d436; }
@@ -32,3 +37,46 @@
       color: #141414;
       background-color: #e2f104f8;
       box-shadow: 0px 1px 10px #e2f104f8; }
+
+.plantel_completo {
+  background-color: black; }
+  .plantel_completo .posicion {
+    padding: 20px;
+    font-size: 30px;
+    color: #ffff00; }
+  .plantel_completo .jugadores {
+    align-content: center;
+    background-color: #389cca;
+    padding-bottom: 20px;
+    border: solid #d4d436;
+    box-shadow: 0px 1px 10px #e2f104f8;
+    cursor: default;
+    transition: all 400ms ease; }
+    .plantel_completo .jugadores:hover {
+      transform: translateY(-3%); }
+    .plantel_completo .jugadores .foto_jugador {
+      object-fit: cover;
+      width: 275px;
+      height: 350px; }
+    .plantel_completo .jugadores .nombre_jugador {
+      font-size: 20px;
+      text-align: center; }
+
+.secCion {
+  border: solid yellow;
+  background-color: #141414; }
+
+.miFormulario {
+  background-color: #389cca;
+  border: solid yellow;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+.imgFormu {
+  border: solid yellow;
+  margin-left: 75px;
+  margin-top: 50px; }
+
+.textFormu {
+  font-size: 20px;
+  color: #141414; }
