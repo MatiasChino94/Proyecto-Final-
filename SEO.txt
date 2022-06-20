@@ -1,0 +1,12 @@
+AGREGUE ESTAS DESCRIPSIONES Y KEYWORDS EN LAS INDEX.HTML Y PLANTEL.HTML 
+
+INDEX.HTML
+
+<meta name="description" content="Dynamo Fc es un equipo de futbol amateur que participa en diferentes campenatos en la ciudad Moreno Provincia de Buenos Aires,te mostramos quienes forman parte del equipo, como surgio la idea, las noticias de como nos va en el campenato que participamos y si queres formar parte, contactenos">
+<meta name="keywords" content="dynamo fc, el plantel, noticias, sumate, quienes somos">
+
+
+PLANTEL.HTML
+
+ <meta name="description" content="jugadore que forman parte del plantel y que estan dispuntando el campeonato en curso">
+ <meta name="keywords" content="dynamo fc, Arqueros, Defensores, Delanteros, Mediocampistas">

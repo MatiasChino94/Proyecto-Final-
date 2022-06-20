@@ -7,7 +7,9 @@
         color: #ffff00;
     }
     .jugadores{
-        align-content: center;
+       
+       
+        align-items: center;
         background-color: $fondo1; 
         padding-bottom: 20px;   
         border: solid $bordes;
@@ -18,8 +20,8 @@
             transform: translateY(-3%);      
         }
         .foto_jugador{
-            object-fit: cover;
-            width: 275px;
+           
+            width: 300px;
             height: 350px;        
         }
         .nombre_jugador{

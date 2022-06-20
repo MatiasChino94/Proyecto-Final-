@@ -1,3 +1,16 @@
+@mixin estilo_boton() {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #141414;
+    background-color:$sombras;
+    box-shadow: 0px 1px 10px $sombras;
+
+    
+}
 .miMenu{
     background-color: $fondo2;
     border: solid $bordes;
@@ -21,18 +34,21 @@
                     height: 400px;
                     border: solid $bordes;
                     }
-                .boton{    
-                        border-radius: 5px;
-                        display: inline-block;
-                        padding: 5px 10px;
-                        margin-top: 20px;
-                        text-decoration: none;
-                        font-size: 20px;
-                        color: #141414;
-                        background-color:$sombras;
-                        box-shadow: 0px 1px 10px $sombras;
+                .boton1{
+                    @include estilo_boton;
+                       
+                    }
+                .boton2{    
+                    @include estilo_boton;  
                     
                     }
-                            
+                .boton3{    
+                    @include estilo_boton;  
+                    
+                    }
+                .boton4{    
+                    @include estilo_boton; 
+                    
+                    }                    
                 }
         }
