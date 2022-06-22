@@ -1,6 +1,15 @@
 .loGo{
-    background-color: $fondo1;
-    border: solid $bordes;
+    background-color:$fondo1;
+    border: 5px solid $bordes;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     .escudo{
+        width: 300px;
+        height: 250px;
+        
+     }
 }
 
  

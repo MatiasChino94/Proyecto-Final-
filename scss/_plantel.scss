@@ -1,5 +1,5 @@
 .plantel_completo{
-    background-color: black;
+    background-color: $fondo2;
     
     .posicion{    
         padding: 20px;
@@ -21,8 +21,8 @@
         }
         .foto_jugador{
            
-            width: 300px;
-            height: 350px;        
+            max-width: 100%;
+            height: 300px;        
         }
         .nombre_jugador{
             font-size: 20px;

@@ -13,7 +13,17 @@
 }
 .miMenu{
     background-color: $fondo2;
-    border: solid $bordes;
+    
+        .titulo_menu{
+            display: flex;
+            justify-content: center;
+            max-width: 100%;                       
+            padding: 50px;
+            font-size: 100px;
+            font-family: fantasy;
+            color: yellow;
+            text-align: center;
+        }
         .miTarjeta{
             background-color: $fondo1; 
             padding-bottom: 20px;   

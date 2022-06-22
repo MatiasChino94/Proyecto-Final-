@@ -1,0 +1,206 @@
+.contenedor_noticias{
+    background-color: $fondo2;
+    
+        h2{
+            padding: 100px;
+            font-size: 100px;
+            font-family: fantasy;
+            color: yellow;
+            text-align: center;
+            
+        }
+        h3{
+            padding: 50px;
+            font-size: 75px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: yellow;
+            text-align: center;
+        }
+        .contenedor_articulos{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: space-around;
+
+
+          
+                .noticia1{
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $fondo1;
+                    width: 500px;
+                    border: 5px solid yellow;
+                    box-sizing: border-box;
+                    
+                        h4{
+                            padding: 30px;
+                            font-size: 50px;
+                            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            color: yellow;
+
+                        }
+                        p{
+                            padding: 30px;
+                            font-size: 30px;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            color: yellow;
+                        }
+                        img{
+                            width: 350px;
+                            height: 300px;
+                            border: 2px solid yellow;
+                            
+                        }
+                        button{
+                            
+                            padding: 10px;
+                            margin: 10px;
+                            font-size: 20px;
+                            background-color: yellow;
+                            border: 2px solid yellow;
+                            border-radius: 2px;
+                            color: black;
+                            cursor: pointer;
+                            box-shadow: 0px 1px 10px $sombras;
+
+                        }
+                    }
+
+                    .noticia2{
+                        margin-bottom: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background-color: $fondo1;
+                        width: 500px;
+                        border: 5px solid yellow;
+                        box-sizing: border-box;
+                        
+                            h4{
+                                padding: 30px;
+                                font-size: 50px;
+                                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                color: yellow;
+    
+                            }
+                            p{
+                                padding: 30px;
+                                font-size: 30px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                color: yellow;
+                            }
+                            img{
+                                width: 350px;
+                                height: 300px;
+                                border: 2px solid yellow;
+                                
+                            }
+                            button{
+                            
+                                padding: 10px;
+                                margin: 10px;
+                                font-size: 20px;
+                                background-color: yellow;
+                                border: 2px solid yellow;
+                                border-radius: 2px;
+                                color: black;
+                                cursor: pointer;
+                                box-shadow: 0px 1px 10px $sombras;
+
+    
+                            }
+                        }
+                        .noticia3{
+                            margin-bottom: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            background-color: $fondo1;
+                            width: 500px;
+                            border: 5px solid yellow;
+                            box-sizing: border-box;
+                            
+                                h4{
+                                    padding: 30px;
+                                    font-size: 50px;
+                                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                    color: yellow;
+        
+                                }
+                                p{
+                                    padding: 30px;
+                                    font-size: 30px;
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                    color: yellow;
+                                }
+                                img{
+                                    width: 350px;
+                                    height: 300px;
+                                    border: 2px solid yellow;
+                                    
+                                }
+                                button{
+                            
+                                    padding: 10px;
+                                    margin: 10px;
+                                    font-size: 20px;
+                                    background-color: yellow;
+                                    border: 2px solid yellow;
+                                    border-radius: 2px;
+                                    color: black;
+                                    cursor: pointer;
+                                    box-shadow: 0px 1px 10px $sombras;
+
+        
+                                }
+                            }
+                            .noticia4{
+                                margin-bottom: 20px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                background-color: $fondo1;
+                                width: 500px;
+                                border: 5px solid yellow;
+                                box-sizing: border-box;
+                                
+                                    h4{
+                                        padding: 30px;
+                                        font-size: 50px;
+                                        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                        color: yellow;
+            
+                                    }
+                                    p{
+                                        padding: 30px;
+                                        font-size: 30px;
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        color: yellow;
+                                    }
+                                    img{
+                                        width: 350px;
+                                        height: 300px;
+                                        border: 2px solid yellow;
+                                        
+                                    }
+                                    button{
+                            
+                                        padding: 10px;
+                                        margin: 10px;
+                                        font-size: 20px;
+                                        background-color: yellow;
+                                        border: 2px solid yellow;
+                                        border-radius: 2px;
+                                        color: black;
+                                        cursor: pointer;
+                                        box-shadow: 0px 1px 10px $sombras;
+
+            
+                                    }
+                                }           
+        }
+        
+}

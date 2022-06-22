@@ -5,11 +5,26 @@
 
 .loGo {
   background-color: #389cca;
-  border: solid #d4d436; }
+  border: 5px solid #d4d436;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .loGo .escudo {
+    width: 300px;
+    height: 250px; }
 
 .miMenu {
-  background-color: #141414;
-  border: solid #d4d436; }
+  background-color: #141414; }
+  .miMenu .titulo_menu {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 50px;
+    font-size: 100px;
+    font-family: fantasy;
+    color: yellow;
+    text-align: center; }
   .miMenu .miTarjeta {
     background-color: #389cca;
     padding-bottom: 20px;
@@ -69,7 +84,7 @@
       box-shadow: 0px 1px 10px #e2f104f8; }
 
 .plantel_completo {
-  background-color: black; }
+  background-color: #141414; }
   .plantel_completo .posicion {
     padding: 20px;
     font-size: 30px;
@@ -85,8 +100,8 @@
     .plantel_completo .jugadores:hover {
       transform: translateY(-3%); }
     .plantel_completo .jugadores .foto_jugador {
-      width: 300px;
-      height: 350px; }
+      max-width: 100%;
+      height: 300px; }
     .plantel_completo .jugadores .nombre_jugador {
       font-size: 20px;
       text-align: center; }
@@ -103,15 +118,190 @@
 
 .imgFormu {
   border: solid yellow;
-  margin-left: 75px;
+  margin-left: 50px;
   margin-top: 50px; }
 
 .textFormu {
   font-size: 20px;
   color: #141414; }
 
+.contenedor_noticias {
+  background-color: #141414; }
+  .contenedor_noticias h2 {
+    padding: 100px;
+    font-size: 100px;
+    font-family: fantasy;
+    color: yellow;
+    text-align: center; }
+  .contenedor_noticias h3 {
+    padding: 50px;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    text-align: center; }
+  .contenedor_noticias .contenedor_articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around; }
+    .contenedor_noticias .contenedor_articulos .noticia1 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #389cca;
+      width: 500px;
+      border: 5px solid yellow;
+      box-sizing: border-box; }
+      .contenedor_noticias .contenedor_articulos .noticia1 h4 {
+        padding: 30px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia1 p {
+        padding: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia1 img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia1 button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 2px;
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 1px 10px #e2f104f8; }
+    .contenedor_noticias .contenedor_articulos .noticia2 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #389cca;
+      width: 500px;
+      border: 5px solid yellow;
+      box-sizing: border-box; }
+      .contenedor_noticias .contenedor_articulos .noticia2 h4 {
+        padding: 30px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia2 p {
+        padding: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia2 img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia2 button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 2px;
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 1px 10px #e2f104f8; }
+    .contenedor_noticias .contenedor_articulos .noticia3 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #389cca;
+      width: 500px;
+      border: 5px solid yellow;
+      box-sizing: border-box; }
+      .contenedor_noticias .contenedor_articulos .noticia3 h4 {
+        padding: 30px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia3 p {
+        padding: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia3 img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia3 button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 2px;
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 1px 10px #e2f104f8; }
+    .contenedor_noticias .contenedor_articulos .noticia4 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #389cca;
+      width: 500px;
+      border: 5px solid yellow;
+      box-sizing: border-box; }
+      .contenedor_noticias .contenedor_articulos .noticia4 h4 {
+        padding: 30px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia4 p {
+        padding: 30px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia4 img {
+        width: 350px;
+        height: 300px;
+        border: 2px solid yellow; }
+      .contenedor_noticias .contenedor_articulos .noticia4 button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 2px;
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 1px 10px #e2f104f8; }
+
+.sobre_nosotros {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sobre_nosotros .titulo_menu {
+    padding: 50px;
+    font-size: 100px;
+    font-family: fantasy;
+    color: yellow;
+    text-align: center; }
+  .sobre_nosotros .texto_nosotros {
+    max-width: 100%;
+    padding: 50px;
+    display: flex;
+    background-color: #389cca;
+    width: 750px;
+    border: 5px solid yellow;
+    font-size: 30px;
+    color: yellow; }
+  .sobre_nosotros .img_nosotros1 .img10 {
+    max-width: 100%; }
+
 footer {
-  background-color: #25858b;
+  background-color: #389cca;
   border: 5px solid yellow; }
   footer .seguir {
     margin: 20px;
@@ -123,6 +313,7 @@ footer {
   footer .redesSociales {
     margin: 30px;
     padding: 30px;
+    text-decoration: none;
     font-size: 50px;
     color: yellow;
     text-align: center; }
