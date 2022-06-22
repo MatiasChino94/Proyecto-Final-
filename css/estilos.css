@@ -20,8 +20,7 @@
     display: flex;
     justify-content: center;
     max-width: 100%;
-    padding: 50px;
-    font-size: 100px;
+    font-size: 75px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }
@@ -128,14 +127,15 @@
 .contenedor_noticias {
   background-color: #141414; }
   .contenedor_noticias h2 {
-    padding: 100px;
-    font-size: 100px;
+    max-width: 100%;
+    font-size: 75px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }
   .contenedor_noticias h3 {
-    padding: 50px;
-    font-size: 75px;
+    max-width: 100%;
+    margin: 10px;
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: yellow;
     text-align: center; }
@@ -145,6 +145,7 @@
     align-items: center;
     align-content: space-around; }
     .contenedor_noticias .contenedor_articulos .noticia1 {
+      max-width: 100%;
       margin-bottom: 20px;
       display: flex;
       flex-direction: column;
@@ -178,6 +179,7 @@
         cursor: pointer;
         box-shadow: 0px 1px 10px #e2f104f8; }
     .contenedor_noticias .contenedor_articulos .noticia2 {
+      max-width: 100%;
       margin-bottom: 20px;
       display: flex;
       flex-direction: column;
@@ -211,6 +213,7 @@
         cursor: pointer;
         box-shadow: 0px 1px 10px #e2f104f8; }
     .contenedor_noticias .contenedor_articulos .noticia3 {
+      max-width: 100%;
       margin-bottom: 20px;
       display: flex;
       flex-direction: column;
@@ -244,6 +247,7 @@
         cursor: pointer;
         box-shadow: 0px 1px 10px #e2f104f8; }
     .contenedor_noticias .contenedor_articulos .noticia4 {
+      max-width: 100%;
       margin-bottom: 20px;
       display: flex;
       flex-direction: column;
@@ -283,8 +287,10 @@
   flex-direction: column;
   align-items: center; }
   .sobre_nosotros .titulo_menu {
-    padding: 50px;
-    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 75px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }

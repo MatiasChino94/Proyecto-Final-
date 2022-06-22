@@ -7,8 +7,10 @@
 
         .titulo_menu{
                                   
-            padding: 50px;
-            font-size: 100px;
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            font-size: 75px;
             font-family: fantasy;
             color: yellow;
             text-align: center;

@@ -2,16 +2,18 @@
     background-color: $fondo2;
     
         h2{
-            padding: 100px;
-            font-size: 100px;
+            
+            max-width: 100%;
+            font-size: 75px;
             font-family: fantasy;
             color: yellow;
             text-align: center;
-            
         }
         h3{
-            padding: 50px;
-            font-size: 75px;
+            max-width: 100%;
+            
+            margin: 10px;
+            font-size: 50px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: yellow;
             text-align: center;
@@ -26,6 +28,7 @@
 
           
                 .noticia1{
+                    max-width: 100%;
                     margin-bottom: 20px;
                     display: flex;
                     flex-direction: column;
@@ -70,6 +73,7 @@
                     }
 
                     .noticia2{
+                        max-width: 100%;
                         margin-bottom: 20px;
                         display: flex;
                         flex-direction: column;
@@ -114,6 +118,7 @@
                             }
                         }
                         .noticia3{
+                            max-width: 100%;
                             margin-bottom: 20px;
                             display: flex;
                             flex-direction: column;
@@ -158,6 +163,7 @@
                                 }
                             }
                             .noticia4{
+                                max-width: 100%;
                                 margin-bottom: 20px;
                                 display: flex;
                                 flex-direction: column;
