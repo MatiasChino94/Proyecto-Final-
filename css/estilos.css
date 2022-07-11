@@ -7,20 +7,30 @@
   background-color: #389cca;
   border: 5px solid #d4d436;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .loGo .tituloPrincipal {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    padding-bottom: 30px; }
   .loGo .escudo {
     width: 300px;
     height: 250px; }
 
 .miMenu {
-  background-color: #141414; }
+  padding-bottom: 30px;
+  background-color: #141414;
+  border-left: #d4d436 solid 5px;
+  border-right: #d4d436 solid 5px; }
   .miMenu .titulo_menu {
+    padding-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     max-width: 100%;
-    font-size: 75px;
+    font-size: 50px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }
@@ -89,6 +99,8 @@
     font-size: 30px;
     color: #ffff00; }
   .plantel_completo .jugadores {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #389cca;
     padding-bottom: 20px;
@@ -100,35 +112,52 @@
       transform: translateY(-3%); }
     .plantel_completo .jugadores .foto_jugador {
       max-width: 100%;
-      height: 300px; }
+      height: 450px;
+      margin-top: -40px;
+      margin-bottom: -50px; }
     .plantel_completo .jugadores .nombre_jugador {
-      font-size: 20px;
-      text-align: center; }
+      border-top: #ffff00 solid;
+      font-family: 'Bangers', cursive;
+      font-size: 35px; }
+    .plantel_completo .jugadores h4 {
+      font-family: 'Black Ops One', cursive;
+      font-size: 40px; }
 
-.secCion {
-  border: solid yellow;
+.titulo_menu {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 50px;
+  font-family: fantasy;
+  color: yellow;
+  text-align: center; }
+
+.cajaSeccion {
+  border: 5px solid #d4d436;
   background-color: #141414; }
 
 .miFormulario {
   background-color: #389cca;
-  border: solid yellow;
+  border: solid #d4d436;
   margin-top: 10px;
   margin-right: 10px; }
-
-.imgFormu {
-  border: solid yellow;
-  margin-left: 50px;
-  margin-top: 50px; }
 
 .textFormu {
   font-size: 20px;
   color: #141414; }
 
 .contenedor_noticias {
-  background-color: #141414; }
+  background-color: #141414;
+  border: 5px solid #d4d436; }
   .contenedor_noticias h2 {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
     max-width: 100%;
-    font-size: 75px;
+    font-size: 50px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }
@@ -144,7 +173,7 @@
     flex-direction: column;
     align-items: center;
     align-content: space-around; }
-    .contenedor_noticias .contenedor_articulos .noticia1 {
+    .contenedor_noticias .contenedor_articulos .noticia {
       max-width: 100%;
       margin-bottom: 20px;
       display: flex;
@@ -154,21 +183,26 @@
       width: 500px;
       border: 5px solid yellow;
       box-sizing: border-box; }
-      .contenedor_noticias .contenedor_articulos .noticia1 h4 {
+      .contenedor_noticias .contenedor_articulos .noticia h4 {
         padding: 30px;
         font-size: 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: yellow; }
-      .contenedor_noticias .contenedor_articulos .noticia1 p {
+      .contenedor_noticias .contenedor_articulos .noticia .tituloNoticia {
+        margin: auto;
+        font-family: 'Permanent Marker', cursive;
+        color: yellow;
+        font-size: 40px; }
+      .contenedor_noticias .contenedor_articulos .noticia p {
         padding: 30px;
         font-size: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: yellow; }
-      .contenedor_noticias .contenedor_articulos .noticia1 img {
+        font-family: 'Bangers', cursive;
+        color: black; }
+      .contenedor_noticias .contenedor_articulos .noticia img {
         width: 350px;
         height: 300px;
         border: 2px solid yellow; }
-      .contenedor_noticias .contenedor_articulos .noticia1 button {
+      .contenedor_noticias .contenedor_articulos .noticia button {
         padding: 10px;
         margin: 10px;
         font-size: 20px;
@@ -196,7 +230,7 @@
       .contenedor_noticias .contenedor_articulos .noticia2 p {
         padding: 30px;
         font-size: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Bangers', cursive;
         color: yellow; }
       .contenedor_noticias .contenedor_articulos .noticia2 img {
         width: 350px;
@@ -230,7 +264,7 @@
       .contenedor_noticias .contenedor_articulos .noticia3 p {
         padding: 30px;
         font-size: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Bangers', cursive;
         color: yellow; }
       .contenedor_noticias .contenedor_articulos .noticia3 img {
         width: 350px;
@@ -264,7 +298,7 @@
       .contenedor_noticias .contenedor_articulos .noticia4 p {
         padding: 30px;
         font-size: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Bangers', cursive;
         color: yellow; }
       .contenedor_noticias .contenedor_articulos .noticia4 img {
         width: 350px;
@@ -281,45 +315,69 @@
         cursor: pointer;
         box-shadow: 0px 1px 10px #e2f104f8; }
 
-.sobre_nosotros {
+.sobreNosotros {
   background-color: #141414;
+  border: 5px solid #d4d436;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .sobre_nosotros .titulo_menu {
+  .sobreNosotros .titulo_menu {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     max-width: 100%;
-    font-size: 75px;
+    font-size: 50px;
     font-family: fantasy;
     color: yellow;
     text-align: center; }
-  .sobre_nosotros .texto_nosotros {
-    max-width: 100%;
-    padding: 50px;
-    display: flex;
+  .sobreNosotros .cajaImagen {
+    width: 650px;
+    height: auto;
+    margin: 30px; }
+    .sobreNosotros .cajaImagen .imgNosotros {
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      border: 5px solid #d4d436; }
+  .sobreNosotros .cajaParrafo {
+    margin: 30px;
+    padding: 30px;
+    width: 600px;
+    height: auto;
     background-color: #389cca;
-    width: 750px;
-    border: 5px solid yellow;
-    font-size: 30px;
-    color: yellow; }
-  .sobre_nosotros .img_nosotros1 .img10 {
-    max-width: 100%; }
+    border: 5px solid #d4d436; }
+    .sobreNosotros .cajaParrafo p {
+      margin-top: 5px;
+      font-size: 20px;
+      font-family: 'Bangers', cursive;
+      text-align: left; }
+  @media (max-width: 425px) {
+    .sobreNosotros .cajaImagen {
+      width: 350px; }
+    .sobreNosotros .cajaParrafo {
+      width: 300px;
+      text-align: center; } }
 
 footer {
   background-color: #389cca;
-  border: 5px solid yellow; }
+  border: #d4d436 solid 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   footer .seguir {
-    margin: 20px;
-    padding: 20px; }
+    margin: 5px;
+    padding: 5px; }
     footer .seguir h3 {
       font-size: 30px;
       text-align: center;
       color: yellow; }
   footer .redesSociales {
-    margin: 30px;
     padding: 30px;
-    text-decoration: none;
     font-size: 50px;
-    color: yellow;
     text-align: center; }
+    footer .redesSociales .redes_ico {
+      text-decoration: none;
+      color: yellow; }
+  footer .escudo {
+    width: 200px;
+    height: 150px; }

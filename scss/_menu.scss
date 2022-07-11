@@ -12,13 +12,18 @@
     
 }
 .miMenu{
+    padding-bottom: 30px;
     background-color: $fondo2;
+    border-left: $bordes solid 5px;
+    border-right: $bordes solid 5px ;
     
         .titulo_menu{
+            padding-top: 40px;
+            margin-bottom: 40px;
             display: flex;
             justify-content: center;
             max-width: 100%;
-            font-size: 75px;
+            font-size: 50px;
             font-family: fantasy;
             color: yellow;
             text-align: center;

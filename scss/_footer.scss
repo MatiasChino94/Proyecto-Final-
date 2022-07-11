@@ -1,10 +1,13 @@
 footer{
     background-color: $fondo1;
-    border: 5px solid yellow;
+    border: $bordes solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
         .seguir{
-            margin: 20px;
-            padding: 20px;
+            margin: 5px;
+            padding: 5px;
             
             h3{
                 font-size: 30px;
@@ -13,15 +16,25 @@ footer{
             }
         }
         .redesSociales{
-            margin: 30px;
             padding: 30px;
-            text-decoration: none;
             font-size: 50px;
-            color: yellow;
             text-align: center;
-            
+             .redes_ico{
+                text-decoration: none;
+                color: yellow;
+             }
             
         }
+
+        .escudo{
+            width: 200px;
+            height: 150px;
+            
+         }
+
+       
+
+        
 
 
 }

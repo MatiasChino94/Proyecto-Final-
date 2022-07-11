@@ -1,21 +1,29 @@
-.secCion{
-    border: solid yellow;
+
+ .titulo_menu{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 50px;
+    font-family: fantasy;
+    color: yellow;
+    text-align: center;
+}
+
+
+.cajaSeccion{
+    border: 5px solid $bordes;
     background-color: #141414;
 }
 
+
 .miFormulario{
+
     background-color: #389cca;
-    border: solid yellow;
+    border: solid $bordes;
     margin-top: 10px;
     margin-right: 10px;
-
-}
-
-.imgFormu{
-
-    border: solid yellow;
-    margin-left: 50px;
-    margin-top: 50px;
 
 }
     

@@ -1,10 +1,16 @@
 .loGo{
-    background-color:$fondo1;
+    background-color: $fondo1; 
     border: 5px solid $bordes;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+      .tituloPrincipal{
+         text-align: center;
+         font-family: 'Press Start 2P', cursive;
+         font-size: 50px;
+         padding-bottom: 30px;
+      }
      .escudo{
         width: 300px;
         height: 250px;
